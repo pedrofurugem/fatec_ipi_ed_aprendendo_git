@@ -13,7 +13,16 @@ int main (){
     switch (op){
         case '+':
           printf("%d + %d = %d\n", operando1, operando2, operando1 + operando2);
-          break;
+        break;
+        case '-':
+           printf("%d - %d = %d\n", operando1, operando2, operando1 - operando2);
+        break;
+        case '*':
+           printf("%d * %d = %d\n", operando1, operando2, operando1 * operando2);
+        break; 
+        case '/':
+           printf("%d * %d = %d\n", operando1, operando2, operando1 / operando2);
+        break; 
     }
     
 
